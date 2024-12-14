@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: rgb(252, 239, 224);
+}
+
+.card {
+    background-color: #fff;
+    width: 25rem;
+    height: 25vh;
+    padding: 13px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 12px rgba(35, 30, 30, 0.702);
+   
+}
+
+.star{
+    cursor: pointer;
+    font-size: 5vh;
+    
+}
+#output{
+    margin-top: 12px;
+}
+
+.one {
+    color: rgb(255, 0, 0);
+  }
+  
+  .two {
+    color: rgb(255, 106, 0);
+  }
+  
+  .three {
+    color: rgb(255, 255, 120);
+  }
+  
+  .four {
+    color: rgb(255, 255, 0);
+  }
+  
+  .five {
+    color: rgb(24, 159, 14);
+  }
